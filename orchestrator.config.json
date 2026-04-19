@@ -1,0 +1,51 @@
+{
+  "projectName": "My Project",
+  "maxConcurrent": 5,
+  "pollIntervalSeconds": 30,
+  "taskTimeoutMinutes": 30,
+
+  "repos": {
+    "my-api": "/path/to/my-api",
+    "my-frontend": "/path/to/my-frontend"
+  },
+
+  "agents": {
+    "Backend": {
+      "cli": "claude",
+      "defaultRepo": "my-api",
+      "model": "sonnet",
+      "instructionsFile": "agents/BACKEND.md"
+    },
+    "Frontend": {
+      "cli": "claude",
+      "defaultRepo": "my-frontend",
+      "model": "sonnet",
+      "instructionsFile": "agents/FRONTEND.md"
+    },
+    "Codex": {
+      "cli": "codex",
+      "defaultRepo": "my-api",
+      "instructionsFile": "agents/CODEX.md"
+    },
+    "Gemini": {
+      "cli": "gemini",
+      "defaultRepo": "my-api",
+      "instructionsFile": "agents/GEMINI.md"
+    },
+    "OpenCode": {
+      "cli": "opencode",
+      "defaultRepo": "my-api",
+      "instructionsFile": "agents/OPENCODE.md"
+    },
+    "Cursor": {
+      "cli": "cursor",
+      "defaultRepo": "my-api",
+      "instructionsFile": "agents/CURSOR.md"
+    },
+    "Abacus": {
+      "cli": "abacusai",
+      "defaultRepo": "my-api",
+      "instructionsFile": "agents/ABACUS.md"
+    }
+  }
+}

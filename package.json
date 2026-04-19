@@ -1,0 +1,31 @@
+{
+  "name": "multi-agent-orchestrator",
+  "version": "1.0.0",
+  "description": "TUI dashboard to orchestrate multiple AI coding agents (Claude, Codex, Gemini, Cursor, OpenCode, Abacus AI) working in parallel on your codebase",
+  "main": "orchestrator.js",
+  "bin": {
+    "orchestrator": "./orchestrator.js"
+  },
+  "scripts": {
+    "start": "node orchestrator.js",
+    "start:paused": "node orchestrator.js --paused"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "orchestrator",
+    "claude",
+    "codex",
+    "gemini",
+    "cursor",
+    "opencode",
+    "abacus",
+    "tui",
+    "multi-agent",
+    "coding-assistant"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "blessed": "^0.1.81"
+  }
+}
