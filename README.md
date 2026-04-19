@@ -212,4 +212,4 @@ All output is logged to `logs/`:
 
 ## License
 
-MIT
+CC BY-NC
