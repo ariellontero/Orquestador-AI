@@ -20,7 +20,7 @@ A terminal dashboard (TUI) that dispatches tasks to multiple AI coding agents wo
 
 ```bash
 # 1. Clone and install
-git clone https://github.com/your-username/multi-agent-orchestrator.git
+git clone https://github.com/ariellontero/Orquestador-AI.git
 cd multi-agent-orchestrator
 npm install
 
